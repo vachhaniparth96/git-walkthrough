@@ -19,6 +19,8 @@ Local Commands
 
     git status - tells us what is happening in a local repository at any given moment
 
+    git push origin main- pushes the commited changes back up to the github repository
+
 Intro to GitHub- https://generalassembly.instructure.com/courses/161/pages/intro-to-github?module_item_id=2746
 
 GitHub is the most prominent online storage space for collaborative work.
@@ -29,3 +31,8 @@ Difference between Git and GitHub
     Git provides a local repo on our computers
     GitHub provides a remote repo in the cloud
 
+Forking, Cloning, and Pulling
+    On GitHub click on the fork icon and then click on generate fork
+    To Clone, click on the arrow in the code box, copy the HTTPS address, and then in the terminal type: git clone [paste copied https address here]
+    To Pull, click pull requests on the nav bar and click on "New Pull Request" and then click "Create pull request". In the title, enter "[Your Name] | complete/incomplete" and in the comment box you can enter the difficulty of the assignment and talk about what difficulties were faced while doing the assignment, as well as a more detailed status of the assignment if incomplete. Then click "Create Pull Request" again at the bottom of the screen.
+        Alternatively you can click on "Contribute" and then "Open pull request"
